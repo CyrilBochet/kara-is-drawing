@@ -6649,7 +6649,7 @@ button.bg-primary:focus {
 a.bg-secondary:hover, a.bg-secondary:focus,
 button.bg-secondary:hover,
 button.bg-secondary:focus {
-    background-color: #1a252f !important;
+    background-color: #2d274f !important;
 }
 
 .bg-success {
@@ -10673,7 +10673,9 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-    color: #2d274f;
+    color: #fff;
+    background: #2d274f;
+    padding: 5px;
 }
 
 #mainNav .navbar-toggler {
