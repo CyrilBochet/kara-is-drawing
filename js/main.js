@@ -72,17 +72,17 @@ function createProjects(projects) {
     for (let i = 0; i < projects.length; i++) {
 
         let thumbnail = '<div class="col-md-6 col-lg-4 mb-5">\n' +
-            '                <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal'+projects[i]["id"]+'">\n' +
+            '                <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal' + projects[i]["id"] + '">\n' +
             '                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">\n' +
             '                        <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-search-plus fa-3x"></i></div>\n' +
             '                    </div>\n' +
-            '                    <img class="img-fluid" src="'+projects[i]["thumbnail"]+'" alt=""/>\n' +
+            '                    <img class="img-fluid" src="' + projects[i]["thumbnail"] + '" alt=""/>\n' +
             '                </div>\n' +
             '            </div>';
 
 
-        let elem = '<div class="portfolio-modal modal fade" id="portfolioModal'+projects[i]["id"]+'" tabindex="-1" role="dialog"\n' +
-            '     aria-labelledby="portfolioModal'+projects[i]["id"]+'Label" aria-hidden="true">\n' +
+        let elem = '<div class="portfolio-modal modal fade" id="portfolioModal' + projects[i]["id"] + '" tabindex="-1" role="dialog"\n' +
+            '     aria-labelledby="portfolioModal' + projects[i]["id"] + 'Label" aria-hidden="true">\n' +
             '    <div class="modal-dialog modal-xl" role="document">\n' +
             '        <div class="modal-content">\n' +
             '            <button class="close" type="button" data-dismiss="modal" aria-label="Close">\n' +
@@ -91,24 +91,11 @@ function createProjects(projects) {
             '            <div class="modal-body text-center">\n' +
             '                <div class="container">\n' +
             '                    <div class="row justify-content-center">\n' +
-            '                        <div class="col-lg-8">\n' +
-            '                            <!-- Portfolio Modal - Title-->\n' +
-            '                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0"\n' +
-            '                                id="portfolioModal2Label">Tasty Cake</h2>\n' +
-            '                            <!-- Icon Divider-->\n' +
-            '                            <div class="divider-custom">\n' +
-            '                                <div class="divider-custom-line"></div>\n' +
-            '                                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>\n' +
-            '                                <div class="divider-custom-line"></div>\n' +
-            '                            </div>\n' +
-            '                            <!-- Portfolio Modal - Image-->\n' +
-            '                            <img class="img-fluid mb-5" src="'+projects[i]["image"]+'" alt=""/>\n' +
-            '                            <!-- Portfolio Modal - Text-->\n' +
-            '                            <p class="mb-5">'+projects[i]["description"]+'</p>\n' +
-            '                            <button class="btn btn-primary" data-dismiss="modal">\n' +
-            '                                <i class="fas fa-times fa-fw"></i>\n' +
-            '                                Close Window\n' +
-            '                            </button>\n' +
+            '                        <div class="col-lg-12">\n' +
+            '                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-4"\n' +
+            '                                id="portfolioModal2Label">' + projects[i]["title"] + '</h2>\n' +
+            '                            <p class="mb-3">' + projects[i]["description"] + '</p>\n' +
+            '                            <img class="img-fluid mb-3" src="' + projects[i]["image"] + '" alt=""/>\n' +
             '                        </div>\n' +
             '                    </div>\n' +
             '                </div>\n' +
@@ -119,7 +106,6 @@ function createProjects(projects) {
 
         var div = document.createElement('div');
         div.innerHTML = thumbnail;
-        div.className = 'col-md-6 col-lg-4 mb-5';
         $("#thumbnails").append(thumbnail);
 
         var div = document.createElement('div');
