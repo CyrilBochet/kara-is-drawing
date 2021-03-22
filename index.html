@@ -7,7 +7,12 @@
     <meta name="author" content=""/>
     <title>Kara is drawing</title>
     <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <link rel="mask-icon" href="./assets/favicon/safari-pinned-tab.svg" color="#517884">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="theme-color" content="#ffffff">
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
@@ -19,9 +24,9 @@
 </head>
 <body id="page-top">
 <!-- Navigation-->
-<nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+<nav class="navbar navbar-expand-lg bg-nav text-uppercase fixed-top" id="mainNav">
     <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Mon Portfolio</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Léo Dhenain</a>
         <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded"
                 type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
                 aria-expanded="false" aria-label="Toggle navigation">
@@ -33,7 +38,7 @@
                 <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
                                                      href="#portfolio">Portfolio</a></li>
                 <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-                                                     href="#about">A propos</a></li>
+                                                     href="#about">À propos</a></li>
             </ul>
         </div>
     </div>
@@ -68,29 +73,39 @@
     </div>
 </section>
 <!-- About Section-->
-<section class="page-section bg-primary text-white mb-0" id="about">
+<section class="page-section bg-secondary text-white mb-0" id="about">
     <div class="container">
         <!-- About Section Heading-->
-        <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
+        <h2 class="page-section-heading text-center text-uppercase text-white">À propos</h2>
         <!-- Icon Divider-->
-        <div class="divider-custom divider-light">
+        <div class="divider-custom divider-light mb-5">
             <div class="divider-custom-line"></div>
 
         </div>
         <!-- About Section Content-->
         <div class="row">
-            <div class="col-lg-4 ml-auto"><p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Incidunt neque tempore temporibus voluptate voluptatum. Asperiores beatae deserunt ex hic laboriosam
-                minima nulla officiis pariatur soluta unde. Aperiam eos veritatis voluptate!</p></div>
-            <div class="col-lg-4 mr-auto"><p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Alias, atque blanditiis est eveniet ex ipsa nobis odit optio tempora voluptatem? At enim error in magni
-                minima nostrum, omnis quam velit.</p></div>
+            <div class="col-lg-4 ml-auto">
+                <p class="lead">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </p>
+            </div>
+            <div class="col-lg-4 mr-auto">
+                <p class="lead">
+                    Matériel utilisé :
+                <ul style="font-size: 1.25rem;">
+                    <li>Tablette graphique : Huion H420</li>
+                    <li>iPad air 4</li>
+                    <li>Aquarelle/Peinture/Craie/Crayon</li>
+                </ul>
+                </p>
+            </div>
         </div>
 
     </div>
 </section>
 <!-- Footer-->
-<footer class="footer text-center">
+<footer class="bg-footer footer text-center">
     <div class="container">
         <div class="row">
             <!-- Footer Location-->
@@ -105,10 +120,10 @@
             <!-- Footer Social Icons-->
             <div class="col-lg-6 mb-6 mb-lg-0">
                 <h4 class="text-uppercase mb-4">Suivez-moi</h4>
-                <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
-                <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
-                <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-instagram"></i></a>
+                <a class="btn btn-outline-light btn-social mx-1" target="_blank" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
+                <a class="btn btn-outline-light btn-social mx-1" target="_blank" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
+                <a class="btn btn-outline-light btn-social mx-1" target="_blank" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                <a class="btn btn-outline-light btn-social mx-1" target="_blank" href="https://www.instagram.com/kara.is.drawing/"><i class="fab fa-fw fa-instagram"></i></a>
             </div>
 
         </div>
@@ -117,9 +132,9 @@
 <!-- Copyright Section-->
 <div class="copyright py-4 text-center text-white">
     <div class="container">
-        <a rel="noreferrer"  target="_blank"
+        <a rel="noreferrer" target="_blank"
            href="https://www.linkedin.com/in/cyril-bochet/">
-            <small>© Cyril BOCHET
+            <small>Site réalisé par Cyril BOCHET ©
                 <script>document.write(new Date().getFullYear())</script>
             </small>
         </a>
