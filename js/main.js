@@ -4,75 +4,66 @@ $(document).ready(function () {
     let projects = [
         {
             "id": 1,
-            "titre": "Multi sites Magento",
-            "description": "Amélioration et mise à jour de 3 sites e-commerce sur Magento. \n" +
+            "titre": "Untilted",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. \n" +
                 "Paramétrage de modules et amélioration de l'expérience utilisateur",
             "image": "assets/img/portfolio/image1.jpg",
-            "tag": ["MAGENTO", "MULTISITE"],
         },
         {
             "id": 2,
-            "titre": "Multi sites Magento",
-            "description": "Amélioration et mise à jour de 3 sites e-commerce sur Magento. \n" +
+            "titre": "Untilted",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. \n" +
                 "Paramétrage de modules et amélioration de l'expérience utilisateur",
             "image": "assets/img/portfolio/image2.jpg",
-            "tag": ["MAGENTO", "MULTISITE"],
         },
         {
             "id": 3,
-            "titre": "Multi sites Magento",
-            "description": "Amélioration et mise à jour de 3 sites e-commerce sur Magento. \n" +
+            "titre": "Untilted",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. \n" +
                 "Paramétrage de modules et amélioration de l'expérience utilisateur",
             "image": "assets/img/portfolio/image6.jpg",
-            "tag": ["MAGENTO", "MULTISITE"],
         },
         {
             "id": 4,
-            "titre": "Multi sites Magento",
-            "description": "Amélioration et mise à jour de 3 sites e-commerce sur Magento. \n" +
+            "titre": "Untilted",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. \n" +
                 "Paramétrage de modules et amélioration de l'expérience utilisateur",
             "image": "assets/img/portfolio/image4.jpg",
-            "tag": ["MAGENTO", "MULTISITE"],
         },
         {
             "id": 5,
-            "titre": "Multi sites Magento",
-            "description": "Amélioration et mise à jour de 3 sites e-commerce sur Magento. \n" +
+            "titre": "Untilted",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. \n" +
                 "Paramétrage de modules et amélioration de l'expérience utilisateur",
             "image": "assets/img/portfolio/image5.jpg",
-            "tag": ["MAGENTO", "MULTISITE"],
         },
         {
             "id": 6,
-            "titre": "Multi sites Magento",
-            "description": "Amélioration et mise à jour de 3 sites e-commerce sur Magento. \n" +
+            "titre": "Untilted",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. \n" +
                 "Paramétrage de modules et amélioration de l'expérience utilisateur",
             "image": "assets/img/portfolio/image3.jpg",
-            "tag": ["MAGENTO", "MULTISITE"],
         },
         {
             "id": 7,
-            "titre": "Multi sites Magento",
-            "description": "Amélioration et mise à jour de 3 sites e-commerce sur Magento. \n" +
+            "titre": "Untilted",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. \n" +
                 "Paramétrage de modules et amélioration de l'expérience utilisateur",
             "image": "assets/img/portfolio/image7.jpg",
-            "tag": ["MAGENTO", "MULTISITE"],
         },
         {
             "id": 8,
-            "titre": "Multi sites Magento",
-            "description": "Amélioration et mise à jour de 3 sites e-commerce sur Magento. \n" +
+            "titre": "Untilted",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. \n" +
                 "Paramétrage de modules et amélioration de l'expérience utilisateur",
             "image": "assets/img/portfolio/image8.jpg",
-            "tag": ["MAGENTO", "MULTISITE"],
         },
         {
             "id": 9,
-            "titre": "Multi sites Magento",
-            "description": "Amélioration et mise à jour de 3 sites e-commerce sur Magento. \n" +
+            "titre": "Untilted",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. \n" +
                 "Paramétrage de modules et amélioration de l'expérience utilisateur",
             "image": "assets/img/portfolio/image9.jpg",
-            "tag": ["MAGENTO", "MULTISITE"],
         },
     ]
     createProjects(projects);
