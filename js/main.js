@@ -5,65 +5,67 @@ $(document).ready(function () {
         {
             "id": 1,
             "titre": "Untilted",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. \n" +
-                "Paramétrage de modules et amélioration de l'expérience utilisateur",
-            "image": "assets/img/portfolio/image1.jpg",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. \n",
+            "image": "assets/img/portfolio/image6.jpg",
+            "dimensions": "A4 224gr"
         },
         {
             "id": 2,
             "titre": "Untilted",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. \n" +
-                "Paramétrage de modules et amélioration de l'expérience utilisateur",
-            "image": "assets/img/portfolio/image2.jpg",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. \n",
+            "image": "assets/img/portfolio/image6.jpg",
+            "dimensions": "A4 224gr"
+
         },
         {
             "id": 3,
             "titre": "Untilted",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. \n" +
-                "Paramétrage de modules et amélioration de l'expérience utilisateur",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. \n",
             "image": "assets/img/portfolio/image6.jpg",
+            "dimensions": "A4 224gr"
         },
         {
             "id": 4,
             "titre": "Untilted",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. \n" +
-                "Paramétrage de modules et amélioration de l'expérience utilisateur",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. \n",
             "image": "assets/img/portfolio/image4.jpg",
+            "dimensions": "A4 224gr"
+
         },
         {
             "id": 5,
-            "titre": "Untilted",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. \n" +
-                "Paramétrage de modules et amélioration de l'expérience utilisateur",
+            "titre": "Buccinum undatum",
+            "description": "On le connait sous le nom de Bulot, un gastéropode reconnu pour ses qualités gustatives, sa coquille peut arborer plusieurs teintes différentes, on le retrouve majoritairement sur les côtes atlantique. ",
             "image": "assets/img/portfolio/image5.jpg",
+            "dimensions": "A4 224gr"
         },
         {
             "id": 6,
-            "titre": "Untilted",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. \n" +
-                "Paramétrage de modules et amélioration de l'expérience utilisateur",
+            "titre": "Crane Homo sapiens",
+            "description": "Aquarelle réalisée à partir d'une photo représentant le crâne d'un être humain ayant vécu dans les alentours de Menton 700 avant Jésus Christ.",
             "image": "assets/img/portfolio/image3.jpg",
+            "dimensions": "A4 224gr"
         },
         {
             "id": 7,
-            "titre": "Untilted",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. \n" +
-                "Paramétrage de modules et amélioration de l'expérience utilisateur",
+            "titre": "Rhizostoma pulmo",
+            "description": "Servant d'abris aux petits poissons, cette méduse se reconnait à sa couleur bleutée et nacrée et ses 8 sous bras issues de 4 bras soudés. On la retrouves dans la méditerranées et la mer noire. Habituellement elle mesure entre 30 et 60 cm mais elle peut atteindre 1m dans les bonnes conditions.",
             "image": "assets/img/portfolio/image7.jpg",
+            "dimensions": "A4 224gr"
         },
         {
             "id": 8,
-            "titre": "Untilted",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. \n" +
-                "Paramétrage de modules et amélioration de l'expérience utilisateur",
+            "titre": "Python Regius ",
+            "description": "Plus communement appelé le Python Royal, est un serpent originaire du continent africain. Il est très docile et craintif, donc facilement sujet au stress. Son système de défence contre les agresseurs est simple, il s'enroule sur lui même en ne faisant sortir que sa tête.",
             "image": "assets/img/portfolio/image8.jpg",
+            "dimensions": "21 x 29,7 - 160g/m²"
         },
         {
             "id": 9,
-            "titre": "Untilted",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. \n" +
-                "Paramétrage de modules et amélioration de l'expérience utilisateur",
+            "titre": "Céphalopode benthique",
+            "description": "Le mot \"Céphalopode\" désigne les poulpes et les pieuvres, des animaux marins. Le mot \"benthique\" caractérise les espèces peuplant les bas fonds des étendues d'eau. Cet animal peut faire preuve de mémoire et possède une capacité d'apprentissage.\n",
             "image": "assets/img/portfolio/image9.jpg",
+            "dimensions": "21 x 29,7 - 160g/m²"
         },
     ]
     createProjects(projects);
@@ -99,6 +101,7 @@ function createProjects(projects) {
             '                                id="portfolioModal2Label">' + projects[i]["titre"] + '</h2>\n' +
             '                            <p class="mb-3">' + projects[i]["description"] + '</p>\n' +
             '                            <img class="img-fluid mb-3" src="' + projects[i]["image"] + '" alt=""/>\n' +
+            '                            <p class="mb-3">Dimensions : ' + projects[i]["dimensions"] + '</p>\n' +
             '                        </div>\n' +
             '                    </div>\n' +
             '                </div>\n' +
