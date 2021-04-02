@@ -6,14 +6,14 @@ $(document).ready(function () {
             "id": 1,
             "titre": "Untilted",
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. \n",
-            "image": "assets/img/portfolio/image6.jpg",
+            "image": "assets/img/portfolio/image1.jpg",
             "dimensions": "A4 224gr"
         },
         {
             "id": 2,
             "titre": "Untilted",
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. \n",
-            "image": "assets/img/portfolio/image6.jpg",
+            "image": "assets/img/portfolio/image2.jpg",
             "dimensions": "A4 224gr"
 
         },
@@ -26,16 +26,16 @@ $(document).ready(function () {
         },
         {
             "id": 4,
-            "titre": "Untilted",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. \n",
+            "titre": "Buccinum undatum",
+            "description": "On le connait sous le nom de Bulot, un gastéropode reconnu pour ses qualités gustatives, sa coquille peut arborer plusieurs teintes différentes, on le retrouve majoritairement sur les côtes atlantique. \n",
             "image": "assets/img/portfolio/image4.jpg",
             "dimensions": "A4 224gr"
 
         },
         {
             "id": 5,
-            "titre": "Buccinum undatum",
-            "description": "On le connait sous le nom de Bulot, un gastéropode reconnu pour ses qualités gustatives, sa coquille peut arborer plusieurs teintes différentes, on le retrouve majoritairement sur les côtes atlantique. ",
+            "titre": "Untilted",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
             "image": "assets/img/portfolio/image5.jpg",
             "dimensions": "A4 224gr"
         },
