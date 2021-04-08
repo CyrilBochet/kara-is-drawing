@@ -4,23 +4,23 @@ $(document).ready(function () {
     let projects = [
         {
             "id": 1,
-            "titre": "Untilted",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. \n",
+            "titre": "Anxiété",
+            "description": "Représentation personnelle de l'anxiété et de l'oppression.",
             "image": "assets/img/portfolio/image1.jpg",
-            "dimensions": "A4 224gr"
+            "dimensions": "21 X 29,7 - 160G/m²"
         },
         {
             "id": 2,
-            "titre": "Untilted",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. \n",
+            "titre": "Amphiprioninae",
+            "description": "Appartenant à la famille des pomacentridés. Ce sont des poissons d'un dizaine de centimètres, arborant des couleurs oranges et noirs. Cette espèce coexiste avec des anémones mortelles dont elle a fait son habitat.",
             "image": "assets/img/portfolio/image2.jpg",
-            "dimensions": "A4 224gr"
+            "dimensions": "21 X 29,7 - 160G/m²"
 
         },
         {
             "id": 3,
-            "titre": "Untilted",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. \n",
+            "titre": "Apis Mellifera",
+            "description": "Abeille européenne ou plus communément appelée \"mouche à miel\", elle occupe l'ensemble des continents excepté l'Antarctique. C'est l'une des plus grandes pollinisatrice.",
             "image": "assets/img/portfolio/image6.jpg",
             "dimensions": "A4 224gr"
         },
@@ -34,22 +34,22 @@ $(document).ready(function () {
         },
         {
             "id": 5,
-            "titre": "Untilted",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "titre": "Crane Homo sapiens",
+            "description": "Aquarelle réalisée à partir d'une photo représentant le crâne d'un être humain ayant vécu dans les alentours de Menton 700 avant Jésus Christ.",
             "image": "assets/img/portfolio/image5.jpg",
             "dimensions": "A4 224gr"
         },
         {
             "id": 6,
-            "titre": "Crane Homo sapiens",
-            "description": "Aquarelle réalisée à partir d'une photo représentant le crâne d'un être humain ayant vécu dans les alentours de Menton 700 avant Jésus Christ.",
+            "titre": "Rhizostoma pulmo",
+            "description": "Servant d'abris aux petits poissons, cette méduse se reconnait à sa couleur bleutée et nacrée et ses 8 sous bras issues de 4 bras soudés. On la retrouves dans la méditerranées et la mer noire. Habituellement elle mesure entre 30 et 60 cm mais elle peut atteindre 1m dans les bonnes conditions.",
             "image": "assets/img/portfolio/image3.jpg",
             "dimensions": "A4 224gr"
         },
         {
             "id": 7,
-            "titre": "Rhizostoma pulmo",
-            "description": "Servant d'abris aux petits poissons, cette méduse se reconnait à sa couleur bleutée et nacrée et ses 8 sous bras issues de 4 bras soudés. On la retrouves dans la méditerranées et la mer noire. Habituellement elle mesure entre 30 et 60 cm mais elle peut atteindre 1m dans les bonnes conditions.",
+            "titre": "Oryctes nasicornis\n",
+            "description": "Une des trois seules espèces  paléarctiques  présentes en Europe, elle est absente dans la région de l'Angleterre et favorise un climat plus chaud. On le trouve donc au bord du bassin méditerranéens. Il est le plus gros coléoptère de France avec une longueure oscillant entre 20 et 40 mm.",
             "image": "assets/img/portfolio/image7.jpg",
             "dimensions": "A4 224gr"
         },
